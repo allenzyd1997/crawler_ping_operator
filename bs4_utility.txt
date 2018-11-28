@@ -1,0 +1,35 @@
+
+#找到文档的title
+soup.title
+
+#title的name值
+soup.title.name
+
+#title中的字符串String
+soup.title.string
+
+#title的父亲节点的name属性
+soup.title.parent.name
+
+#文档的第一个找到的段落
+soup.p
+
+#找到的p的class属性值
+soup.p['class']
+
+#找到a标签
+soup.a
+
+#找到所有的a标签
+soup.find_all('a')
+
+#找到id值等于3的a标签
+soup.find(id="link3")
+
+#我们可以通过get_text 方法 快速得到源文件中的所有text内容。
+print(soup.get_text())
+
+#发现了没有，find_all方法返回的是一个可以迭代的列表
+for link in soup.find_all('a'):
+    print(link.get('href'))
+ 
