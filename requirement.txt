@@ -58,7 +58,7 @@ pyparsing==2.2.0
 pyshark==0.4.2.2
 python-dateutil==2.7.3
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.4
 query-string==2018.11.20
 regex==2017.4.5
 request==2018.11.20
