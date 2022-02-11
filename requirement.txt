@@ -47,7 +47,7 @@ Pillow==5.3.0
 plac==0.9.6
 post==2018.11.20
 preshed==1.0.1
-protobuf==3.6.1
+protobuf==3.15.0
 public==2018.11.20
 py==1.7.0
 pycorenlp==0.3.0
