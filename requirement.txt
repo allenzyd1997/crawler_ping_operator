@@ -24,7 +24,7 @@ geopy==1.17.0
 get==2018.11.19
 grpcio==1.14.1
 h5py==2.8.0
-html5lib==0.9999999
+html5lib==0.99999999
 idna==2.6
 jmespath==0.9.3
 Keras==2.2.2
